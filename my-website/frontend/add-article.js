@@ -1,5 +1,6 @@
 const addArticleForm = document.forms.articleForm;
 const articleTitle = addArticleForm.title;
+console.log(articleTitle);
 const articleContent = addArticleForm.content;
 const url = 'http://localhost:1337/api';
 
